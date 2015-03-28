@@ -18,8 +18,12 @@ body {
 }
 
 .button-group a:hover {
-	color: rgba(0, 0, 0, 0.4);
-	background-color: transparent;
+	background-color: #007095;
+}
+
+.button-group a:focus, .button-group a:active {
+	color: rgba(0, 0, 0, 1);
+	background-color: inherit;
 }
 
 .button-group{
@@ -50,14 +54,12 @@ body {
 
 @media only screen and (min-width: 40.063em) {
 	.namelogo h1 {
-		font-size: 16px;
 		text-align: left;
 	}
 }
 
 @media only screen and (min-width: 64.063em) {
 	.namelogo h1 {
-		font-size: 24px;
 		text-align: left;
 	}
 }
@@ -135,4 +137,30 @@ footer {
 footer a:hover {
 	color: rgba(0, 0, 0, 0.4);
 	background-color: transparent;
+}
+
+.scrollup {
+	height: 2em;
+	width: 2em;
+	padding:0.2em;
+	text-align:center;
+	background: url(../img/glyphicons-601-chevron-up.png) center no-repeat, #bbb;
+	background-size: 1em auto;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+	position:fixed;
+	bottom:2em;
+	right:2em;
+	display: none;
+	border-radius: 0.1em;
+}
+
+.scrollup:hover {
+	background-color: #888;
 }
