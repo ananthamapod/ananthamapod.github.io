@@ -48,7 +48,7 @@ body {
 
 .namelogo h1 {
 	font-size: 1.5em;
-	font-weight: 600;
+	font-weight: 300;
 	text-align: center;
 }
 
@@ -65,8 +65,9 @@ body {
 }
 
 .hero{
-	background: url("../../img/develop/template-themes/portfolio6.jpg");
+	background: url(../img/pierian-spring1.jpg);
 	background-size: cover;
+	background-position: center;
 	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
 	height: 80%;
 }
