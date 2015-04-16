@@ -50,6 +50,7 @@ body {
 	font-size: 1.5em;
 	font-weight: 300;
 	text-align: center;
+	display: inline-block;
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -64,16 +65,24 @@ body {
 	}
 }
 
-.hero{
+.hero {
 	background: url(../img/pierian-spring1.jpg);
+/*	background: url(../img/spring.gif),url(../img/filter.png);*/
 	background-size: cover;
 	background-position: center;
 	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
 	height: 80%;
 }
 
+/*@media only screen and (max-width: 64.063em) {
+	.hero {
+		background: url(../img/pierian-spring1.jpg);
+	}
+}*/
+
+
 .intro-text {
-	padding-top: 40%;
+	padding-top: 20%;
 	color: rgba(255, 255, 255, 1);
 	text-align: center;
 }
@@ -95,30 +104,66 @@ body {
 	font-size: 44px;
 }
 
-.about, .work, .contact {
+.about, .work, .projects, .contact {
 	padding: 50px 0 0 0;
 }
-
+.about {
+	background: #272822;
+	color: /*#b8b7a6*//*#e8e7d6*/#666;
+}
+.about h4 {
+	color: #b8b7a6;
+}
+.image-holder {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+}
 .about img{
+	margin: auto;
+	display: block;
 	width: 250px;
 	height: 250px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;	
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border: 1em dashed #666/*#e8e7d6*/;
+}
+
+.about .true-about {
+	color: #b8b7a6;
+}
+
+ul.showcase {
+	list-style-type: none;
+	display: inline-table;
+	margin: 1em;
+}
+
+ul.showcase li {
+	display: inline-block;
+	width: 100%;
+}
+@media only screen and (min-width: 40.063em) {
+	ul.showcase li{
+		width: 50%;
+	}
+}
+@media only screen and (min-width: 64.063em) {
+	ul.showcase li{
+		width: 25%;
+	}
 }
 
 .work img:hover {
+	width: 100%;
+	height: auto;
 	opacity: 0.5;
 	-webkit-transition: 0.3s ease;
 	-moz-transition: 0.3s ease;
 	-ms-transition: 0.3s ease;
 	-o-transition: 0.3s ease;
 	transition: 0.3s ease;
-}
-
-.work li {
-	height: 140px;
-	overflow: hidden; 
 }
 
 hr {
