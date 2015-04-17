@@ -73,6 +73,7 @@ body {
 	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
 	height: 80%;
 	position: relative;
+	overflow: hidden;
 }
 
 /*@media only screen and (max-width: 64.063em) {
@@ -107,6 +108,11 @@ body {
 	color: #fff;
 }
 
+.intro-text .is-visible {
+	width: inherit;
+	word-wrap: normal;
+}
+
 .about, .work, .projects, .contact {
 	padding: 50px 0 0 0;
 }
@@ -133,19 +139,23 @@ body {
 	.image-holder {
 		position: absolute;
 	    top: 50%;
-	    right: 20px;
+	    right: 1em;
 	    -webkit-transform: translate(0%, -50%);
 	       -moz-transform: translate(0%, -50%);
 	    	-ms-transform: translate(0%, -50%);
 	    	 -o-transform: translate(0%, -50%);
 	    		transform: translate(0%, -50%);
+
 	}
+}
+.image-holder {
+	padding-bottom: 3em;
 }
 .about img{
 	margin: auto;
 	display: block;
-	width: 250px;
-	height: 250px;
+	width: 60%;
+	height: auto;
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;

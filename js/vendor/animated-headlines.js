@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 	//set animation timing
-	var animationDelay = 2500,
+	var animationDelay = 3500,
 		//loading bar effect
 		barAnimationDelay = 3800,
 		barWaiting = barAnimationDelay - 3000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
@@ -52,13 +52,13 @@ jQuery(document).ready(function($){
 				spanWrapper.css('width', newWidth);
 			} else if (!headline.hasClass('type') ) {
 				//assign to .cd-words-wrapper the width of its longest word
-				var words = headline.find('.cd-words-wrapper b'),
+/*				var words = headline.find('.cd-words-wrapper b'),
 					width = 0;
 				words.each(function(){
 					var wordWidth = $(this).width();
 				    if (wordWidth > width) width = wordWidth;
 				});
-				headline.find('.cd-words-wrapper').css('width', width);
+				headline.find('.cd-words-wrapper').css('width', width);*/
 			};
 
 			//trigger animation
