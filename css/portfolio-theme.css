@@ -97,9 +97,14 @@ body {
 
  }
 
-.intro-text p{
+.intro-text b {
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 44px;
+	font-weight: 400;
+}
+
+.intro-text .cd-words-wrapper {
+	color: #fff;
 }
 
 .about, .work, .projects, .contact {
