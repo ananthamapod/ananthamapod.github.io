@@ -1,8 +1,13 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
-/* humanstxt.org */
+
+/* TEAM */
+	Title: Ananth Rao
+	Site: ananthamapod@gmail.com
+	Twitter: @ananthamapod
+	Location: Scotch Plains, USA
+
 
 /* SITE */
-  Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Sublime, Git, Sass
+	Last update: 09/29/2015
+	Standards: HTML5, CSS3
+	Components: jQuery, Reveal, Foundation
+	Software: Sublime, Git, Sass

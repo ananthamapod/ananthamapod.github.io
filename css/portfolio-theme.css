@@ -113,7 +113,8 @@ body {
 }
 .about {
 	background: #272822;
-	color: /*#b8b7a6*//*#e8e7d6*/#666;
+	color: #b8b7a6/*#e8e7d6*/;
+	text-align: justify;
 }
 .about h4 {
 	color: #ddd;
@@ -152,11 +153,10 @@ body {
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border: 1em solid #666/*#e8e7d6*/;
+	margin-bottom: 1em;
 }
 
-.about .true-about {
-	color: #b8b7a6;
-}
+	/*color: #b8b7a6;*/
 
 ul.showcase {
 	list-style-type: none;
