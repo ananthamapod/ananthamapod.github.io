@@ -214,7 +214,7 @@ footer a:hover {
 	width: 2em;
 	padding:0.2em;
 	text-align:center;
-	background: url(../img/glyphicons-601-chevron-up.png) center no-repeat, #bbb;
+	background: url(../img/glyphicons-601-chevron-up.png) center no-repeat, #63B75D;
 	background-size: 1em auto;
 	box-sizing: content-box;
 	-moz-box-sizing: content-box;
@@ -232,5 +232,5 @@ footer a:hover {
 }
 
 .scrollup:hover {
-	background-color: #888;
+	background-color: #529A4E;
 }
